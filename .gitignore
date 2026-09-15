@@ -1,0 +1,13 @@
+.venv
+venv
+docs
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+evocode.egg-info
+.pytest_cache
+.mypy_cache
+.opencode
+.github
+.ruff-cache
