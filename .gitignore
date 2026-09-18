@@ -11,3 +11,5 @@ evocode.egg-info
 .opencode
 .github
 .ruff-cache
+.env
+huggingface_cache/

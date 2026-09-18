@@ -1,8 +1,15 @@
 """Pytest configuration and fixtures."""
 
+import os
 import tempfile
 from collections.abc import Generator
 from pathlib import Path
+
+# Set HuggingFace cache to project directory (not C: drive)
+os.environ.setdefault(
+    "HF_HOME",
+    str(Path(__file__).resolve().parent.parent / "huggingface_cache"),
+)
 
 import pytest
 

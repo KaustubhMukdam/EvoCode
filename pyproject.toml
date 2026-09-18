@@ -25,6 +25,8 @@ dependencies = [
     "pydantic>=2.8",
     "pydantic-settings>=2.1",
     "pyyaml>=6.0",
+    "faiss-cpu>=1.8",
+    "sentence-transformers>=3.0",
 ]
 
 [project.optional-dependencies]
@@ -41,8 +43,6 @@ ml = [
     "torch>=2.3",
     "stable-baselines3>=2.0",
     "gymnasium>=0.29",
-    "sentence-transformers>=3.0",
-    "faiss-cpu>=1.8",
 ]
 api = [
     "fastapi>=0.110",
