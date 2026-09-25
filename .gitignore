@@ -13,3 +13,4 @@ evocode.egg-info
 .ruff-cache
 .env
 huggingface_cache/
+AUDIT_REPORT.md
